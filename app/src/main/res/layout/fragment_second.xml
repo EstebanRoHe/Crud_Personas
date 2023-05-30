@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".SecondFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2F3030"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF6D00"
+            android:text="@string/previous"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#ff6750a4"
+            app:icon="@android:drawable/ic_menu_revert"
+            app:layout_constraintBottom_toTopOf="@id/idPersona"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/idPersona"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="16dp"
+            android:hint="Id"
+            android:textColor="#E4D7D7"
+            android:textColorHint="#E4D7D7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_second" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:hint="Nombre"
+            android:textColor="#E4D7D7"
+            android:textColorHint="#E4D7D7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idPersona" />
+
+        <EditText
+            android:id="@+id/apellido"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:hint="Apellido"
+            android:textColor="#E4D7D7"
+            android:textColorHint="#E4D7D7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombre" />
+
+        <Button
+            android:id="@+id/btn_save"
+            style="@style/Widget.Material3.Button.IconButton"
+            android:layout_width="53dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#039144"
+            android:backgroundTintMode="src_over"
+            app:icon="@android:drawable/ic_input_add"
+            app:iconSize="26dp"
+            app:iconTint="#D3FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/apellido" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

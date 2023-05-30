@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "361260483512",
+    "project_id": "estebanyoscar-43703",
+    "storage_bucket": "estebanyoscar-43703.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361260483512:android:df6b4c7fd0017905dd454d",
+        "android_client_info": {
+          "package_name": "cr.ac.una.crudpersonas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4KnJrvvaQWB5duTxAGTrUTxLtYZaNcEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
